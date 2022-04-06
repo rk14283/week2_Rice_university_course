@@ -1,0 +1,4 @@
+Name error can be caused by:
+1) Misspelled variable name 
+2) Misspelled function name 
+3) Missing import statement 
