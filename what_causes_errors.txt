@@ -1,4 +1,61 @@
-Name error can be caused by:
+A) Name error:
 1) Misspelled variable name 
 2) Misspelled function name 
 3) Missing import statement 
+4) Not used double quotes when calling the function
+
+
+B) Attribute error:  
+Misspelled a constant or a call to a function in a module (the part after the period). For example, misspelling a constant or a call to a function in random or math will cause an AttributeError.
+
+
+C) Type error:
+1) If a function expects two arguments and is only given one
+2) If integers are expected and we use strings 
+
+
+
+D) Syntax error:  
+1) One example was missing colon in function 
+2) Second example was using wrong operator "=" instead of "=="
+
+Examples question:
+Which of the following results in a SyntaxError?
+ print x = y
+ print 5 + /2
+ 
+ 
+ E) Code style and readbility 
+ 
+ 1) 
+ """doc string is below a function header, 
+it allows the string to over over multiple lines 
+ it must have input output and how they relate
+ a documentation string tells you what it does 
+ but not how it does it"""
+ 
+ 2) 
+ #So often to tell what a function does we use a comment 
+ 
+ 3) Use appropriate name for varibales, i.e. they must be descriptive, for example use side1, side2, side3 instead of a,b,c
+ 
+ 4) Use spaces for readability 
+ 
+ 5) You can break up the code for readability 
+ 
+ An example of a readable code 
+ def area_triangle_sss(side1,side1,side3):
+    """Returns the area of a triangle given the lenghts
+    of its three sides
+    """
+    #Heron's formula 
+    semi_perim = (side1+side2+side3)/2.0
+    return math.sqrt(semi_perim * 
+                    (semi_perim-a) *
+                    (semi_perim-b) *
+                     (semi_perim-c))
+
+F) Finally he said make sure each of your ifs have an else case  
+
+
+ 
