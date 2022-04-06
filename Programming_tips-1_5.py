@@ -21,3 +21,6 @@ it allows the string to over over multiple lines
 
 
 #no output 
+
+#now output 
+print area_triangle_sss(5,8,12)
