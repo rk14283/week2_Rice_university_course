@@ -1,6 +1,7 @@
 #conditionals Examples
 
-#Return True if year is leap year, false otherwise 
+#Return True if year is leap year, false otherwise
+#The code has to execute in order or the program will not give the right answer
 
 def is_leap_year(year):
     if (year %400) ==0:
