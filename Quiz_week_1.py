@@ -1,3 +1,6 @@
+
+# I got question 6 wrong,which was related to function and question 8 wrong, which was related to area of polygon
+
 def do_stuff():
     print "Hello world"
     print "Goodbye cruel world!"
